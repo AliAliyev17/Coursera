@@ -1,0 +1,25 @@
+.navbar-header {
+	height: 100px;
+}
+
+div.square {
+	height: 500px;
+	margin: 20px 0;
+	background-color: #239920;
+}
+div.square div {
+	text-align: center;
+	font-size: 200%;
+}
+.collapsed-menu-buttons {
+	padding: 5px 5px;	
+}
+#collapsable-nav {
+	background-color: teal;
+}
+
+@media (min-width: 768px) {
+	#collapsable-nav {
+		visibility: hidden;
+	}
+}
